@@ -1,11 +1,13 @@
 package thiskeyword;
 
+import staticdemo.StaticExample;
+
 public class ThisKeyWord {
 	
 	int x,y;
-	public ThisKeyWord(int a, int b) {
-		x=a;
-		y=b;
+	public ThisKeyWord(int x, int y) {
+		this.x=x;
+		this.x=y;
 	}
 	
 	public void display() {
@@ -13,13 +15,11 @@ public class ThisKeyWord {
 	}
 	
 	
-	
-	
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ThisKeyWord th = new ThisKeyWord(15, 45);
 		th.display();
+		
 
 	}
 
